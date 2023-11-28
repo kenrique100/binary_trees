@@ -106,34 +106,34 @@ This function is used only for visualization purposes. You don’t have to push 
 ## Calculate the tree height
 10-binary_tree_depth.c
 ## Calculate the depth of the tree
-11-binary_tree_size.c
-12-binary_tree_leaves.c
-13-binary_tree_nodes.c
-14-binary_tree_balance.c
-15-binary_tree_is_full.c
-16-binary_tree_is_perfect.c
-17-binary_tree_sibling.c
-18-binary_tree_uncle.c
-100-binary_trees_ancestor.c
-101-binary_tree_levelorder.c
-102-binary_tree_is_complete.c
-103-binary_tree_rotate_left.c
-104-binary_tree_rotate_right.c
-110-binary_tree_is_bst.c
-111-bst_insert.c
-112-array_to_bst.c
-113-bst_search.c
-114-bst_remove.c
-115-O
-120-binary_tree_is_avl.c
-121-avl_insert.c
-122-array_to_avl.c
-123-avl_remove.c
-124-sorted_array_to_avl.c
-125-O
-130-binary_tree_is_heap.c
-131-heap_insert.c
-132-array_to_heap.c
-133-heap_extract.c
-134-heap_to_sorted_array.c
-135-O
+- 11-binary_tree_size.c
+- 12-binary_tree_leaves.c
+- 13-binary_tree_nodes.c
+- 14-binary_tree_balance.c
+- 15-binary_tree_is_full.c
+- 16-binary_tree_is_perfect.c
+- 17-binary_tree_sibling.c
+- 18-binary_tree_uncle.c
+- 100-binary_trees_ancestor.c
+- 101-binary_tree_levelorder.c
+- 102-binary_tree_is_complete.c
+- 103-binary_tree_rotate_left.c
+- 104-binary_tree_rotate_right.c
+- 110-binary_tree_is_bst.c
+- 111-bst_insert.c
+- 112-array_to_bst.c
+- 113-bst_search.c
+- 114-bst_remove.c
+- 115-O
+- 120-binary_tree_is_avl.c
+- 121-avl_insert.c
+- 122-array_to_avl.c
+- 123-avl_remove.c
+- 124-sorted_array_to_avl.c
+- 125-O
+- 130-binary_tree_is_heap.c
+- 131-heap_insert.c
+- 132-array_to_heap.c
+- 133-heap_extract.c
+- 134-heap_to_sorted_array.c
+- 135-O
