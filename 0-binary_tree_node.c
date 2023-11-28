@@ -1,19 +1,12 @@
 #include "binary_trees.h"
 /**
-  * binary_tree_node - Creates a node in the tree.
-  * @parent: the parent node
-  * @value: Value of the node
-  * Return: pointer to the node
+  * binary_tree_nodes - counts nodes with at least 1 child
+  * @tree: tree to measure
+  * Return: number of nodes with children
   */
-binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
+size_t binary_tree_nodes(const binary_tree_t *tree)
 {
-	binary_tree_t *new_node;
-
-	new_node = malloc(sizeof(binary_tree_t));
-	if (!new_node)
-		return (NULL);
-	new_node->n = value;
-	new_node->parent = parent;
-	new_node->left = new_node->right = NULL;
-	return (new_node);
+	if (!tree || (!tree->left && !tree->right))
+		return (0);
+	return (binary_tree_nodes(tree->left) + 1 + binary_tree_nodes(tree->right));
 }
