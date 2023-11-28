@@ -48,6 +48,11 @@ int binary_tree_is_leaf(const binary_tree_t *node);
 int binary_tree_is_root(const binary_tree_t *node);
 
 /* Tree traversal  */
+/* Tree traversal  */
+void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));
+void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));
+void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));
+void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
 
 /* Tree Data */
 size_t binary_tree_height(const binary_tree_t *tree);
