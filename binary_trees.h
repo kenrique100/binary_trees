@@ -46,4 +46,14 @@ void binary_tree_delete(binary_tree_t *tree);
 /* Node Identification */
 int binary_tree_is_leaf(const binary_tree_t *node);
 int binary_tree_is_root(const binary_tree_t *node);
+
+/* Tree traversal  */
+
+/* Tree Data */
+size_t binary_tree_height(const binary_tree_t *tree);
+size_t binary_tree_depth(const binary_tree_t *node);
+size_t binary_tree_size(const binary_tree_t *tree);
+size_t binary_tree_leaves(const binary_tree_t *tree);
+size_t binary_tree_nodes(const binary_tree_t *tree);
+
 #endif
